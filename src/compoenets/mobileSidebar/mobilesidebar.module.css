@@ -5,6 +5,7 @@
     flex-direction: column;
     gap: 35px;
     cursor: pointer;
+    z-index: 900;
 }
 .li{
     text-decoration: none;

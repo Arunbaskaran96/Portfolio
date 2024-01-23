@@ -23,17 +23,17 @@ export default function Skill() {
           </p>
         </div>
         <div className={classes.skillTop}>
-          <h6 className={classes.skill}>Web Design</h6>
+          <h6 className={classes.skill}>Web Development</h6>
           <p className={classes.des}>
-            I love designs and it's the first step before creating any website
-            as I can give layout to my imagination.
+            I am a Full Stack Web Developer (MERN) and have quite some
+            experience in it as well.
           </p>
         </div>
         <div className={classes.skillTop}>
-          <h6 className={classes.skill}>Web Design</h6>
+          <h6 className={classes.skill}>Problem Solving</h6>
           <p className={classes.des}>
-            I love designs and it's the first step before creating any website
-            as I can give layout to my imagination.
+            I love solving problems whether it's programming problems or real
+            life problems.
           </p>
         </div>
       </div>
