@@ -3,6 +3,7 @@ import classes from "./topbar.module.css";
 import { TiThMenu } from "react-icons/ti";
 import Mobilesidebar from "../mobileSidebar/Mobilesidebar";
 import { useState } from "react";
+import { IoClose } from "react-icons/io5";
 
 export default function Topbar() {
   const [isMobile, setIsMobile] = useState(false);
@@ -32,11 +33,19 @@ export default function Topbar() {
           </ul>
         </div>
         <div className={classes.menuIconContainer}>
-          <TiThMenu
-            onClick={() => setIsMobile(!isMobile)}
-            className={classes.menuIcon}
-            color="white"
-          />
+          {!isMobile ? (
+            <TiThMenu
+              onClick={() => setIsMobile(!isMobile)}
+              className={classes.menuIcon}
+              color="white"
+            />
+          ) : (
+            <IoClose
+              onClick={() => setIsMobile(!isMobile)}
+              className={classes.menuIcon}
+              color="white"
+            />
+          )}
         </div>
       </div>
       {isMobile && (
