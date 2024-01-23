@@ -81,7 +81,7 @@ export default function Projects() {
       </h6>
       <div className={classes.projectsContainer}>
         <div className={classes.project}>
-          <img className={classes.image} src="./realestate.png" alt="website" />
+          <img className={classes.image} src="/realestate.png" alt="website" />
           <br />
           <div className={classes.nameContainer}>
             <p className={classes.name}>
@@ -129,7 +129,7 @@ export default function Projects() {
           </div>
         </div>
         <div className={classes.project}>
-          <img className={classes.image} src="./instabook.png" alt="website" />
+          <img className={classes.image} src="/instabook.png" alt="website" />
           <br />
           <div className={classes.nameContainer}>
             <p className={classes.name}>
