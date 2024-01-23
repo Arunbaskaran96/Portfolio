@@ -66,5 +66,15 @@
         font-size: 20px;
         position: fixed;
         z-index: 9999;
+        animation: mobile 500ms ease-in-out;
+    }
+}
+
+@keyframes mobile{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
     }
 }
