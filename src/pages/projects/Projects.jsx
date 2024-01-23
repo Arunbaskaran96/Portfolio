@@ -116,16 +116,13 @@ export default function Projects() {
             <div className={classes.tech}>ReactJs</div>
             <div className={classes.tech}>NodeJs</div>
             <div className={classes.tech}>Express</div>
-
-            <div>
-              <div style={{ marginBottom: "10px" }} className={classes.tech}>
-                Mongoose
-              </div>
-              <div style={{ marginBottom: "10px" }} className={classes.tech}>
-                Flexbox
-              </div>
-              <div className={classes.tech}>Redux</div>
+            <div style={{ marginBottom: "10px" }} className={classes.tech}>
+              Mongoose
             </div>
+            <div style={{ marginBottom: "10px" }} className={classes.tech}>
+              Flexbox
+            </div>
+            <div className={classes.tech}>Redux</div>
           </div>
         </div>
         <div className={classes.project}>
@@ -164,16 +161,13 @@ export default function Projects() {
             <div className={classes.tech}>ReactJs</div>
             <div className={classes.tech}>NodeJs</div>
             <div className={classes.tech}>Express</div>
-
-            <div>
-              <div style={{ marginBottom: "10px" }} className={classes.tech}>
-                Mongoose
-              </div>
-              <div style={{ marginBottom: "10px" }} className={classes.tech}>
-                Redux
-              </div>
-              <div className={classes.tech}>Redux-saga</div>
+            <div style={{ marginBottom: "10px" }} className={classes.tech}>
+              Mongoose
             </div>
+            <div style={{ marginBottom: "10px" }} className={classes.tech}>
+              Redux
+            </div>
+            <div className={classes.tech}>Redux-saga</div>
           </div>
         </div>
         <div className={classes.project}>
@@ -263,16 +257,13 @@ export default function Projects() {
             <div className={classes.tech}>ReactJs</div>
             <div className={classes.tech}>NodeJs</div>
             <div className={classes.tech}>Express</div>
-
-            <div>
-              <div style={{ marginBottom: "10px" }} className={classes.tech}>
-                Mongoose
-              </div>
-              <div style={{ marginBottom: "10px" }} className={classes.tech}>
-                Redux
-              </div>
-              <div className={classes.tech}>Redux-saga</div>
+            <div style={{ marginBottom: "10px" }} className={classes.tech}>
+              Mongoose
             </div>
+            <div style={{ marginBottom: "10px" }} className={classes.tech}>
+              Redux
+            </div>
+            <div className={classes.tech}>Redux-saga</div>
           </div>
         </div>
       </div>
