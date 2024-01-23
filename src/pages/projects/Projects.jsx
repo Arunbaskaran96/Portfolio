@@ -8,7 +8,7 @@ export default function Projects() {
       <h6 className={classes.intern}>Intership Projects</h6>
       <div className={classes.projectsContainer}>
         <div className={classes.project}>
-          <img className={classes.image} src="./indiainc.png" alt="website" />
+          <img className={classes.image} src="/indiainc.png" alt="website" />
           <br />
           <div className={classes.nameContainer}>
             <p className={classes.name}>
@@ -42,7 +42,7 @@ export default function Projects() {
           </div>
         </div>
         <div className={classes.project}>
-          <img className={classes.image} src="./xui.png" alt="website" />
+          <img className={classes.image} src="/xui.png" alt="website" />
           <br />
           <div className={classes.nameContainer}>
             <a
