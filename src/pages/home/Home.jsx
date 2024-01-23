@@ -21,8 +21,15 @@ export default function Home() {
           <FaGithub className={classes.github} />
         </a>
       </div>
-      <div style={{ marginTop: "35px" }}>
-        <a className={classes.btn}>Resume</a>
+      <div style={{ marginTop: "35px", textDecoration: "none" }}>
+        <a
+          style={{ textDecoration: "none" }}
+          href="https://drive.google.com/file/d/1kfBglF31wQ6nSYNXii2Qm76HD0UN9cav/view?usp=drive_link"
+          target="blank"
+          className={classes.btn}
+        >
+          Resume
+        </a>
       </div>
     </div>
   );

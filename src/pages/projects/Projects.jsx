@@ -173,6 +173,56 @@ export default function Projects() {
         <div className={classes.project}>
           <img
             className={classes.image}
+            src="https://effervescent-donut-ad7b3c.netlify.app/static/media/Project2.887a0286704b46f077ba.png"
+            alt="website"
+          />
+          <br />
+          <div className={classes.nameContainer}>
+            <p className={classes.name}>
+              <a
+                href="https://65af953dd63246d0857c2f8d--unrivaled-vacherin-0db088.netlify.app/"
+                target="blank"
+                className={classes.anchor}
+              >
+                <FaExternalLinkSquareAlt /> Foodie
+              </a>
+            </p>
+          </div>
+          <div className={classes.desContainer}>
+            <p className={classes.description}>
+              Foodie is the real time web application, users can order the foods
+              and drinks from your favourite resturant.And also we accept online
+              payment and cash-on-delivery.
+            </p>
+          </div>
+          <div className={classes.techStack}>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                flexWrap: "wrap",
+              }}
+            >
+              Tech Stack
+              <span style={{ marginLeft: "10px" }}>
+                <FaArrowRight color="green" />
+              </span>
+            </div>
+            <div className={classes.tech}>ReactJs</div>
+            <div className={classes.tech}>NodeJs</div>
+            <div className={classes.tech}>Express</div>
+            <div style={{ marginBottom: "10px" }} className={classes.tech}>
+              Mongoose
+            </div>
+            <div style={{ marginBottom: "10px" }} className={classes.tech}>
+              Redux
+            </div>
+            <div className={classes.tech}>Redux-saga</div>
+          </div>
+        </div>
+        <div className={classes.project}>
+          <img
+            className={classes.image}
             src="https://effervescent-donut-ad7b3c.netlify.app/static/media/shopify.f134b46d16df6cc5e2d2.png"
             alt="website"
           />
@@ -213,57 +263,6 @@ export default function Projects() {
             <div className={classes.tech}>NodeJs</div>
             <div className={classes.tech}>Express</div>
             <div className={classes.tech}>Mongoose</div>
-          </div>
-        </div>
-        <div className={classes.project}>
-          <img
-            className={classes.image}
-            src="https://effervescent-donut-ad7b3c.netlify.app/static/media/Project2.887a0286704b46f077ba.png"
-            alt="website"
-          />
-          <br />
-          <div className={classes.nameContainer}>
-            <p className={classes.name}>
-              <a
-                href="https://soft-lokum-1da8b3.netlify.app/"
-                target="blank"
-                className={classes.anchor}
-              >
-                <FaExternalLinkSquareAlt /> A2B
-              </a>
-            </p>
-          </div>
-          <div className={classes.desContainer}>
-            <p className={classes.description}>
-              It is a vehicle service web application where users can book for
-              vehicle service from their homes.Used and deployed all CRUD
-              operations in this website in a very standard way using MERN
-              stack.
-            </p>
-          </div>
-          <div className={classes.techStack}>
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                flexWrap: "wrap",
-              }}
-            >
-              Tech Stack
-              <span style={{ marginLeft: "10px" }}>
-                <FaArrowRight color="green" />
-              </span>
-            </div>
-            <div className={classes.tech}>ReactJs</div>
-            <div className={classes.tech}>NodeJs</div>
-            <div className={classes.tech}>Express</div>
-            <div style={{ marginBottom: "10px" }} className={classes.tech}>
-              Mongoose
-            </div>
-            <div style={{ marginBottom: "10px" }} className={classes.tech}>
-              Redux
-            </div>
-            <div className={classes.tech}>Redux-saga</div>
           </div>
         </div>
       </div>
