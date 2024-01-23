@@ -23,7 +23,7 @@ export default function Landpage() {
         <Link to="/navbar/about">
           <img
             className={classes.dropdown}
-            src="./public/dropdown.png"
+            src="./dropdown.png"
             alt="dropddown"
           />
         </Link>
