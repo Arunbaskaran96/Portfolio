@@ -24,7 +24,7 @@ export default function Home() {
       <div style={{ marginTop: "35px", textDecoration: "none" }}>
         <a
           style={{ textDecoration: "none" }}
-          href="https://drive.google.com/file/d/1g5V2en5_2C2NuoazIi5grTWpZi5P-X5b/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Lys-z5TMxZrsVhLcLmVtNTJwM7JMeDU4/view"
           target="blank"
           className={classes.btn}
         >

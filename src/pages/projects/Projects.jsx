@@ -221,29 +221,25 @@ export default function Projects() {
           </div>
         </div>
         <div className={classes.project}>
-          <img
-            className={classes.image}
-            src="https://effervescent-donut-ad7b3c.netlify.app/static/media/shopify.f134b46d16df6cc5e2d2.png"
-            alt="website"
-          />
+          <img className={classes.image} src="/chatweb.png" alt="website" />
           <br />
           <div className={classes.nameContainer}>
             <p className={classes.name}>
               <a
-                href="https://fascinating-dragon-43b7cd.netlify.app/"
+                href="https://lighthearted-donut-aa8e49.netlify.app/"
                 target="blank"
                 className={classes.anchor}
               >
-                <FaExternalLinkSquareAlt /> Shopify
+                <FaExternalLinkSquareAlt /> Chat
               </a>
             </p>
           </div>
           <div className={classes.desContainer}>
             <p className={classes.description}>
-              Shopify is a real-time shopping web application where users can
-              buy products from their homes. This application provides a very
-              intuitive user experience and tries to make the shopping process
-              as easy as possible.
+              This web-app allows you to communicate with your friends in web
+              chat rooms. It enables you to send and receive messages in
+              real-time. Chatting apps make it easier, simpler, and faster to
+              connect with everyone and it is also easy to use.
             </p>
           </div>
           <div className={classes.techStack}>
@@ -262,7 +258,7 @@ export default function Projects() {
             <div className={classes.tech}>ReactJs</div>
             <div className={classes.tech}>NodeJs</div>
             <div className={classes.tech}>Express</div>
-            <div className={classes.tech}>Mongoose</div>
+            <div className={classes.tech}>Socket.io</div>
           </div>
         </div>
       </div>
